@@ -57,5 +57,6 @@ while True:
 		                exit()
 	                 elif("hi "in p) or ("hello"in p) or ("hey"in p):
 		                pyttsx3.speak("Hello!! Please order me to open whatever you like from the above applications.")
+				
 	                 else:
 		                pyttsx3.speak(" Please repeat your command")
