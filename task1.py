@@ -40,22 +40,22 @@ while True:
 			elif("Word"in p) or ("word"in p):
 				pyttsx3.speak("opening Microsoft Word") 
 				os.system("WORD")
-      elif("netbeans"in p) or ("Netbeans"in p):
+                         elif("netbeans"in p) or ("Netbeans"in p):
 				pyttsx3.speak("opening Netbeans") 
 				os.system("Netbeans")
-      elif("Explorer"in p) or ("explorer"in p):
+                         elif("Explorer"in p) or ("explorer"in p):
 				pyttsx3.speak("opening Explorer") 
 				os.system("Explorer")
-      elif("nfs"in p) or ("NFSMW2005"in p):
+                         elif("nfs"in p) or ("NFSMW2005"in p):
 				pyttsx3.speak("opening NFSMW") 
 				os.system("NFSMW")
-			else:
-				print("dont support")
+			 else:
+				print(" we dont support")
 				pyttsx3.speak("Please try again")
-	elif("close"in p) or ("stop"in p) or ("exit"in p):
-		pyttsx3.speak("Thanks! meet you later")
-		exit()
-	elif("hi "in p) or ("hello"in p) or ("hey"in p):
-		pyttsx3.speak("Hello!! Please order me to open whatever you like from the above applications.")
-	else:
-		pyttsx3.speak(" Please repeat your command")
+	                 elif("close"in p) or ("stop"in p) or ("exit"in p):
+		                pyttsx3.speak("Thanks! meet you later")
+		                exit()
+	                 elif("hi "in p) or ("hello"in p) or ("hey"in p):
+		                pyttsx3.speak("Hello!! Please order me to open whatever you like from the above applications.")
+	                 else:
+		                pyttsx3.speak(" Please repeat your command")
